@@ -1,7 +1,6 @@
 % Implementacja Quicksorta w Prologu
 % Autor korpo, https://github.com/korpo
 
-quicksort([],[]).
 quicksort([X],[X]).
 quicksort([X|Xs],Ys) :-
   partition(Xs,X,Left,Right),
