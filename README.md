@@ -1,5 +1,9 @@
+Project Dedalus, funkcja quicksort.
+Wymaga: swi-prolog, wersja co najmniej 6.6.6
+
 Aby uruchomić, wystarczy wpisać 
 swipl quicksort.pl
 
-Potem można przetestować, pisząc np. quicksort([5,1,2], L).
+Aby przetestować, wpisać
+swipl quicksort.pl tests.pl
 
